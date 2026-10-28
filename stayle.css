@@ -203,3 +203,36 @@ header {
     margin: 0 auto;
     line-height: 1.9;
 }
+/* PIE DE PAGINA */
+
+footer {
+    background-color: var(--gris);
+    border-top: 2px solid var(--dorado);
+    padding: 30px 15px;
+    line-height: 1.8;
+}
+
+footer h3 {
+    color: var(--dorado);
+    font-size: 22px;
+}
+
+/* para que jale en telefonos */
+
+@media (max-width: 600px) {
+    .principal {
+        padding: 75px 15px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .producto .card-img-top {
+        height: 210px;
+    }
+
+    .inventario {
+        padding: 18px;
+    }
+}
