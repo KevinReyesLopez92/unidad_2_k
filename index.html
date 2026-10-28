@@ -193,3 +193,36 @@
 
             </div>
         </section>
+          <section class="carrito py-5" id="carrito">
+            <div class="container">
+
+                <h2 class="titulo-seccion text-center">Tu inventario</h2>
+
+                <div class="inventario mx-auto">
+
+                    <p>
+                        Artículos seleccionados:
+                        <strong id="total-articulos">0</strong>
+                    </p>
+
+                    <ul id="lista-carrito" class="list-group mb-3">
+                    </ul>
+
+                    <div class="resumen">
+                        <p class="mb-3">
+                            Total:
+                            <strong id="total">0</strong> monedas
+                        </p>
+
+                        <button class="btn boton-vaciar"
+                            onclick="vaciarCarrito()">
+                            Vaciar inventario
+                        </button>
+                    </div>
+
+                    <p id="mensaje" class="mensaje mt-3" aria-live="polite"></p>
+
+                </div>
+            </div>
+        </section>
+
