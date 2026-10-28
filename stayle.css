@@ -25,3 +25,80 @@ body {
     font-family: Georgia, serif;
 }
 /*qui va ir el menu :v*/ 
+header {
+    background-color: var(--gris);
+    border-bottom: 2px solid var(--dorado);
+}
+
+.navbar {
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: var(--dorado);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: var(--pergamino);
+}
+
+.nav-link {
+    color: var(--pergamino);
+    margin-left: 8px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--dorado);
+}
+/*qui ere la portada */
+ .principal {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(
+        180deg,
+        #282D30 0%,
+        #171717 100%
+    );
+    border-bottom: 1px solid #514630;
+}
+
+.subtitulo {
+    color: var(--dorado);
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.principal h1 {
+    color: var(--dorado);
+    font-size: clamp(35px, 6vw, 60px);
+    margin-bottom: 20px;
+}
+
+.principal h2 {
+    font-size: clamp(20px, 3vw, 30px);
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+.boton-principal {
+    background-color: var(--dorado);
+    color: var(--negro);
+    border: 1px solid var(--dorado);
+    padding: 12px 25px;
+    font-weight: bold;
+}
+
+.boton-principal:hover {
+    background-color: var(--pergamino);
+    color: var(--negro);
+    border-color: var(--pergamino);
+}
