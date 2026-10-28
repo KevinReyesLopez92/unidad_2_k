@@ -58,3 +58,122 @@
             </div>
         </nav>
     </header>
+  <main>
+
+        <section class="principal" id="inicio">
+            <div class="container">
+                <p class="subtitulo">ALQUIMIA · ACERO · MAGIA</p>
+
+                <h1>La Botica de lo Etéreo</h1>
+
+                <h2>Objetos para tu próxima aventura</h2>
+
+                <p class="descripcion">
+                    Pociones, armas y reliquias para quienes se atreven
+                    a explorar más allá de lo conocido.
+                </p>
+
+                <a href="#productos" class="btn boton-principal">
+                    Explorar tienda
+                </a>
+            </div>
+        </section>
+
+        <section class="productos py-5" id="productos">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <p class="subtitulo">MERCANCÍA DEL REINO</p>
+                    <h2 class="titulo-seccion">Objetos de la Botica</h2>
+                    <p>Elige tus herramientas para la próxima aventura.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card producto h-100">
+
+                            <img src="img/pocion.jpg"
+                                class="card-img-top"
+                                alt="Poción de vida">
+
+                            <div class="card-body d-flex flex-column">
+                                <p class="rareza poco-comun">◆ Poco común</p>
+
+                                <h3 class="card-title">Poción de vida</h3>
+
+                                <p class="card-text">
+                                    Una mezcla alquímica capaz de recuperar
+                                    parte de la vitalidad del aventurero.
+                                </p>
+
+                                <p class="precio mt-auto">$120 monedas</p>
+
+                                <button class="btn boton-compra w-100"
+                                    onclick="agregarCarrito('Poción de vida', 120)">
+                                    Agregar al inventario
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card producto h-100">
+
+                            <img src="img/espada.jpg"
+                                class="card-img-top"
+                                alt="Espada del guardián">
+
+                            <div class="card-body d-flex flex-column">
+                                <p class="rareza raro">◆ Raro</p>
+
+                                <h3 class="card-title">Espada del guardián</h3>
+
+                                <p class="card-text">
+                                    Una espada forjada para proteger el reino
+                                    y enfrentar criaturas peligrosas.
+                                </p>
+
+                                <p class="precio mt-auto">$850 monedas</p>
+
+                                <button class="btn boton-compra w-100"
+                                    onclick="agregarCarrito('Espada del guardián', 850)">
+                                    Agregar al inventario
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card producto h-100">
+
+                            <img src="img/artefacto.jpg"
+                                class="card-img-top"
+                                alt="Amuleto antiguo">
+
+                            <div class="card-body d-flex flex-column">
+                                <p class="rareza legendario">◆ Legendario</p>
+
+                                <h3 class="card-title">Amuleto antiguo</h3>
+
+                                <p class="card-text">
+                                    Una reliquia ancestral que guarda un
+                                    poder mágico desconocido.
+                                </p>
+
+                                <p class="precio mt-auto">$1,500 monedas</p>
+
+                                <button class="btn boton-compra w-100"
+                                    onclick="agregarCarrito('Amuleto antiguo', 1500)">
+                                    Agregar al inventario
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
