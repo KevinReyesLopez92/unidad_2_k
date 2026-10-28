@@ -236,3 +236,39 @@ footer h3 {
         padding: 18px;
     }
 }
+/* tratando de acomodr todo porque se ve raro */
+.card-img-top {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    object-position: center;
+    background-color: #171717;
+    padding: 10px;
+    display: block;
+}
+
+/* Tarjetas de los productos */
+.card {
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #C6A15B;
+    background-color: #282D30;
+}
+
+/* Evita que el contenido se desacomode */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 220px;
+    }
+}
