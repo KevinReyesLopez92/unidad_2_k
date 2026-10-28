@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --negro: #171717;
+    --gris: #282D30;
+    --dorado: #C6A15B;
+    --verde: #285943;
+    --pergamino: #E8DCC2;
+    --rojo: #8B3038;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    background-color: var(--negro);
+    color: var(--pergamino);
+    font-family: Georgia, serif;
+}
+/*qui va ir el menu :v*/ 
