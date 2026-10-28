@@ -102,3 +102,104 @@ header {
     color: var(--negro);
     border-color: var(--pergamino);
 }
+/* mercancias */
+ 
+.productos {
+    background-color: var(--negro);
+}
+
+.titulo-seccion {
+    color: var(--dorado);
+    margin-bottom: 20px;
+}
+
+.productos .text-center > p:last-child {
+    line-height: 1.7;
+}
+
+.producto {
+    background-color: var(--gris);
+    color: var(--pergamino);
+    border: 1px solid #5A5140;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    border-color: var(--dorado);
+}
+
+.producto .card-img-top {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    background-color: #202020;
+}
+
+.producto .card-body {
+    padding: 22px;
+}
+
+.producto .card-title {
+    color: var(--pergamino);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.producto .card-text {
+    line-height: 1.7;
+}
+
+.rareza {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.poco-comun {
+    color: #43A875;
+}
+
+.raro {
+    color: #5599E8;
+}
+
+.legendario {
+    color: var(--dorado);
+}
+
+.precio {
+    color: var(--dorado);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boton-compra {
+    background-color: var(--verde);
+    color: var(--pergamino);
+    border: 1px solid var(--dorado);
+    padding: 11px;
+}
+
+.boton-compra:hover,
+.boton-compra:focus {
+    background-color: var(--rojo);
+    color: white;
+    border-color: var(--dorado);
+}
+
+/* HISTORIA */
+
+.historia {
+    background-color: var(--gris);
+    border-top: 1px solid #514630;
+    border-bottom: 1px solid #514630;
+}
+
+.texto-historia {
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.9;
+}
